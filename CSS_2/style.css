@@ -119,7 +119,15 @@ body{
 		}
 
 			.bigtitle{
-				
+				font-weight: 900;
+				font-size: 20px;
+			}
+
+			.dottedline{
+				margin-top: 15px;
+				margin-bottom: 20px;
+				height: 5px;
+				border-bottom: 4px dotted #1a75ff;
 			}
 
 		#footer{
