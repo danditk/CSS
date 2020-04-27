@@ -1,6 +1,79 @@
 body{
-  background-color: #084a67;
+  background-color: #032534;
   font-family: 'Lato', sans-serif;
   color: white;
   font-size: 20px;
+}
+
+.wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header{
+  font-size: 80px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+h3{
+  font-size: 30px;
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  border: 4px solid #77bbe4;
+  padding: 20px;
+}
+
+nav{
+  background-color: rgb(207, 213, 244);
+  color:  #032534;
+}
+
+nav>ul>li{
+  height: 40px;
+  float: left;
+}
+
+.content{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socials{
+  height: 40px;
+  background-color: rgb(207, 213, 244);
+  color: #032534;
+  text-align: center;
+}
+
+.socialdives{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.insta{
+  float: left;
+}
+
+.fb{
+  float: left;
+}
+
+.yt{
+  float: left;
+}
+
+.wp{
+  float: left;
+}
+
+footer{
+  text-align: center;
 }
