@@ -1,26 +1,142 @@
-h1{
-	font-size: 48px;
-	color: red;
-}
-
 body{
-	background-color: gray;
-	font-family: Verdana;
-	font-size: 20px;
-	color: white;
-}px
-
-/* Nieodwiedzony link */
-a:link{
-	color: yellow;
+	background-color: #99c2ff;
+	font-family: 'Lato', sans-serif;
 }
 
-/* Odwiedzony link */
-a:visited{
-	color: yellow;
-}
+	#container{
+		width: 1200px;
+		min-height: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: ;
+	}
 
-/* link po najechaniu kursorem */
-a:hover{
-	color: red;
-}
+		#logo{
+			width: 1200px;
+			text-align: center;
+			color: blue;
+			margin-top: 20px;
+			font-size: 50px;
+			letter-spacing: 3px;
+			font-weight: 900;
+		}
+
+		#menu{
+			background-color: #1a75ff;
+			width: 1170px;
+			margin-top: 20px;
+			padding: 15px;
+			color: #ffffff;
+			font-size: 15px;
+		}
+
+			.menu_baton{
+				background-color: blue;
+				width: 173px;
+				height: 25px;
+				padding: 10px;
+				float: left;
+				font-size: 18px;
+				text-align: center;
+				border-right: 2px dotted #1a75ff;
+				opacity: 0.8;
+			}
+
+			.menu_baton:hover{
+				background-color: #1a75ff;
+				cursor: pointer;
+			}
+
+		#topbar{
+			text-align: center;
+			padding: 10px;
+			margin: 20px;
+			margin-bottom: 25px;		
+			font-size: 28px;
+			color: white;  
+			background-color: #0000ff;
+			height: 120px;
+		}
+
+			#tr1{
+				transform: rotate(180deg);
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+				float: left;
+				border-left: 4px dotted #3498db;
+			}
+
+			#tr2{
+				float: left;
+				height: 80px;
+				padding: 20px;
+				width: 852px;
+				text-align: center;
+				border-right: 4px dotted #3498db;
+			}
+
+			#tr3{
+				float: left;				
+			}
+
+		#sidebar{
+			width: 226px;
+			min-height: 550px;
+			float: left;
+			text-align: left;
+			padding: 20px;
+			font-size: 20px;
+			text-align: center;
+			background-color: #1a75ff;
+			color: #ffffff;
+			border-right: 4px dotted #3498db;
+		}
+				.sidebar_baton{
+					background-color: blue;
+					font-size: 18px;
+					opacity: 0.8;
+					font-size: 20px;
+					height: 25px;
+					padding: 10px;
+					border-bottom: 2px dotted #1a75ff;
+				}
+
+				.sidebar_baton:hover{
+				background-color: #1a75ff;
+				cursor: pointer;					
+				}
+
+		#content{
+			width: 850px;
+			min-height: 500px;
+			float: left;
+			text-align: center;
+			padding: 40px;
+			font-size: 16px;
+			text-align: justify;
+			margin-bottom: 25px;
+		}
+
+			.bigtitle{
+				font-weight: 900;
+				font-size: 20px;
+			}
+
+			.dottedline{
+				margin-top: 15px;
+				margin-bottom: 20px;
+				height: 5px;
+				border-bottom: 4px dotted #1a75ff;
+			}
+
+		#footer{
+			background-color: blue;
+			color: white;
+			width: 1160px;
+			clear: both;
+			text-align: center;
+			padding: 20px;
+			margin-top: 40px;
+			font-size: 20px;
+		}
