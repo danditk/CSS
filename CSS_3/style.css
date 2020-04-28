@@ -37,7 +37,6 @@ a{
 
 .nav {
   width: 100%;
-  padding: 10px 0;
   background-color: rgb(207, 213, 244);
   text-align: center;
   color: #032534;
@@ -45,10 +44,17 @@ a{
   border-bottom: 2px solid #77bbe4;
 }
 
-/* nav>ul>li {
-  height: 40px;
+.nav>ul>li {
   display: inline-block;
-} */
+  padding: 5px 0;
+  width: 200px;
+  /* height: 40px; */
+  border-right: 2px dashed #032534;
+}
+
+.nav>ul>li:first-child {
+  border-left: 2px dashed #032534;
+}
 
 h2 {
   text-align: center;
