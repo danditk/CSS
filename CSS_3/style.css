@@ -45,15 +45,20 @@ a{
 }
 
 .nav>ul>li {
+  margin: 0;
   display: inline-block;
-  padding: 5px 0;
   width: 200px;
-  /* height: 40px; */
+  padding: 10px 0;
   border-right: 2px dashed #032534;
 }
 
 .nav>ul>li:first-child {
   border-left: 2px dashed #032534;
+}
+
+.nav>ul>li:hover {
+  background-color: #77bbe4;
+  text-transform: uppercase;
 }
 
 h2 {
