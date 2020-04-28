@@ -30,7 +30,8 @@
 			</div>
 		</header>
 
-		<nav>
+		<!-- <nav> -->
+		<div class="nav">
 			<ul>
 				<li>Strona główna</li>
 				<li>Dieta</li>
@@ -40,7 +41,8 @@
 				<li>Inne</li>
 				<div style="clear: both;"></div>
 			</ul>
-		</nav>
+		</div>
+		<!-- </nav> -->
 
 		<article class="content">
 			<h2>Wpis cieszący się największą popularnością!</h2>
@@ -100,7 +102,7 @@
 		$(document).ready(function() {
 			var NavY = $('.nav').offset().top;
 
-			var sickyNav = function(){
+			var stickyNav = function(){
 				var ScrollY = $(window).scrollTop();
 
 				if (ScrollY > NavY) {
