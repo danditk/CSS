@@ -73,17 +73,46 @@ h1
 }
 
 .photo1:hover{
-	transform: scale(.9);
+	transform: scale(.9, .95);
 }
 
 .photo2
 {
 	width: 450px;
+	-webkit-transition: transform .2s;
+	-o-transition: transform .2s;
+	transition: transform .2s;
+}
+
+.photo2:hover{
+	transform: scale(0.95) rotate(5deg);
 }
 
 .photo3
 {
 	width: 450px;
+}
+
+.overlay{
+	position: relative;
+	width: 450px;
+	height: 278px;
+}
+
+.overlay .link{
+	background-color: #111;
+	display: block;
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: opacity .2s ease-in-out;
+}
+
+.overlay:hover .link{
+	opacity: .8;
 }
 
 .photo4
